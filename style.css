@@ -1,3 +1,8 @@
+video {
+  display: block;
+  margin: auto;
+}
+
 .sidebar {
 Position:fixed;
 color:red;

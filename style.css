@@ -1,4 +1,5 @@
 .sidebar {
+Position:fixed;
 color:red;
 Width:100px;
 display: block;
@@ -10,7 +11,25 @@ max-Width:100 px;
 Float:left;
 }
 
-.sidelink {
-Background-color: #90ee90;
-Padding: 0 6px;
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 10px;
+}
+
+.sidebar ul li a {
+    color: #22f5ce;
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+    background-color: lilac;
+    color: #22f5ce;
+}
+
+.content {
+    padding: 20px;
 }

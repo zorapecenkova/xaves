@@ -4,6 +4,6 @@ Background-color:lavender;
 Margin:10px;
 Margin-left:10px;
 Padding:20px;
-Width:100 px;
+max-Width:100 px;
 Float:left;
 }

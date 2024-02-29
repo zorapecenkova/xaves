@@ -20,14 +20,14 @@ Float:left;
     padding: 3px;
 }
 
-.sidebar ul li a, a:link, a:visited {
-    color: green;
-    text-decoration: none;
-}
-
 .sidebar ul li a:hover {
     background-color: #22f5ce;
     color: white;
+}
+
+.sidebar ul li a, a:link, a:visited {
+    color: red;
+    text-decoration: none;
 }
 
 .content {

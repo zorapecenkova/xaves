@@ -1,7 +1,9 @@
 .sidebar {
-Width: 300 px;
-color: red;
-Background-color: lavender;
-Margin: 20px;
-Padding: 40px;
+Float:left;
+Width:100 px;
+color:red;
+Background-color:lavender;
+Margin:10px;
+Margin-left:10px;
+Padding:20px;
 }

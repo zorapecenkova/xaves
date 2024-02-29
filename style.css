@@ -1,6 +1,7 @@
 .sidebar {
 color:red;
 Width:100px;
+display: block;
 Background-color:lavender;
 Margin:10px;
 Margin-left:10px;

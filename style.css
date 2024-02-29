@@ -1,9 +1,9 @@
 .sidebar {
-Float:left;
-Width:100 px;
 color:red;
 Background-color:lavender;
 Margin:10px;
 Margin-left:10px;
 Padding:20px;
+Width:100 px;
+Float:left;
 }

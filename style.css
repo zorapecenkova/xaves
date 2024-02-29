@@ -20,7 +20,7 @@ Float:left;
     padding: 10px;
 }
 
-.sidebar ul li a {
+.sidebar ul li a, a:link, a:visited {
     color: green;
     text-decoration: none;
 }

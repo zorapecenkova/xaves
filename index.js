@@ -1,14 +1,24 @@
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
+function toggleSidebar() {
+    const sidebar = document.querySelector('.sidebar');
+    if (sidebar.style.left === '-250px') {
+        sidebar.style.left = '0';
     } else {
-      content.style.display = "block";
+        sidebar.style.left = '-250px';
     }
-  });
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+    const content = document.getElementById("content");
+    const numVideos = 10; // Number of videos to display
+
+    for (let i = 0; i < numVideos; i++) {
+        const video = document.createElement("video");
+        video.src = "your_video_source.mp4"; // Set your video source here
+        video.controls = true;
+        video.style.position = "absolute";
+        video.style.left = Math.random() * 60 + "%"; // Random left position (up to 60% of container width)
+        video.style.top = Math.random() * 60 + "%"; // Random top position (up to 60% of container height)
+        video.style.width = Math.random() * 30 + 70 + "%"; // Random width (minimum 70% of original size)
+        content.appendChild(video);
+    }
+});

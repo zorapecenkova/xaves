@@ -1,76 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Xaves // Zora Pečeknová</title>
-  <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collapsible Sidebar</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <main>
-    <div class="wrap-collabsible">
-      <input id="collapsible" class="toggle" type="checkbox">
-      <label for="collapsible" class="lbl-toggle">More Info</label>
-      <div class="collapsible-content">
-        <div class="content-inner">
-          <p>
-          <ul>
-            <li><a href="#">Directory</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Carpe Diem</a></li>
-            <li><a href="#">Synths</a></li>
-            <p> coje7 kolaps </p>
-          </ul>
-        </div>
-      </div>
+    <div class="sidebar">
+        <button class="toggle-btn" onclick="toggleSidebar()">Toggle Sidebar</button>
+        <ul>
+            <li><a href="#">Item 1</a></li>
+            <li><a href="#">Item 2</a></li>
+            <li><a href="#">Item 3</a></li>
+            <li><a href="#">Item 4</a></li>
+        </ul>
     </div>
+    <div class="content" id="content">
+        <!-- Video content will be dynamically added here -->
     </div>
-
-#########################
-
-<div class="wrapper">
-  <div class="item">
-    <div class="item__video">
-      <iframe width="540" height="960" src="https://youtube.com/embed/T91nkteZ7Yc?feature=share">
-      </iframe>
-    </div>
-  </div>
-  <div class="item">
-    <div class="item__video">
-      <iframe width="540" height="960" src="https://youtube.com/embed/T91nkteZ7Yc?feature=share">
-      </iframe>
-    </div>
-  </div>
-  <div class="item">
-    <div class="item__video">
-      <iframe width="540" height="960" src="https://youtube.com/embed/T91nkteZ7Yc?feature=share">
-      </iframe>
-    </div>
-  </div>
-  <div class="item">
-    <div class="item__video">
-      <iframe width="540" height="960" src="https://youtube.com/embed/T91nkteZ7Yc?feature=share">
-      </iframe>
-    </div>
-  </div>
-</div>
-
-
-
-
-    <div class="content">
-
-      <p><iframe width="540" height="960" src="https://youtube.com/embed/T91nkteZ7Yc?feature=share">
-      </iframe></p>
-      <p><iframe width="540" height="960" src="https://youtube.com/embed/T91nkteZ7Yc?feature=share">
-      </iframe></p>
-
-    </div>
-  </main>
-  <script src="index.js"></script>
+    <script src="index.js"></script>
 </body>
-
 </html>

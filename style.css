@@ -5,7 +5,7 @@ video {
 
 .sidebar {
 Position:fixed;
-color:red;
+color:rgb(200, 0, 255);
 Width:100px;
 display: block;
 Background-color:transparent;
